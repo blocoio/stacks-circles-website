@@ -842,7 +842,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .bg-center {
-  background-position: center center !important;
+  margin-bottom: 50px;
 }
 
 .bg-top {
@@ -1029,7 +1029,6 @@ section {
   background: #fff;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 991.98px) {
@@ -1037,7 +1036,6 @@ section {
     background: #fff;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -1429,9 +1427,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-color: #5a6268;
 }
 
 .btn-secondary:hover {
@@ -1997,6 +1995,16 @@ a {
 a:hover, a:focus {
   color: #633b70;
   text-decoration: underline;
+}
+
+
+a.bodyLink {
+  color: #434B53;
+  text-decoration: none;
+}
+
+a.bodyLink:hover, a.bodyLink:focus {
+  color: #434B53;
 }
 
 h1,
