@@ -2019,6 +2019,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: 'OpenSauceOneSemiBold';
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 600;
@@ -2028,7 +2029,7 @@ h6,
 
 h1,
 .h1 {
-  font-family: Open Sauce One;
+  font-family: 'OpenSauceOneBold';
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -2048,7 +2049,7 @@ h2,
 h3,
 .h3 {
   /* H3 Landing Page */
-  font-family: Open Sauce One;
+  font-family: 'OpenSauceOneSemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -2063,7 +2064,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: Open Sauce One;
+  font-family: 'OpenSauceOneSemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
