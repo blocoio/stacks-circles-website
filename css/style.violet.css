@@ -2907,6 +2907,8 @@ code {
 }
 
 .nav-link:hover {
+  color: #5546FF;
+  padding-bottom: calc(0.5rem - 1px);
   border-bottom: 1px solid #5546FF;
 }
 

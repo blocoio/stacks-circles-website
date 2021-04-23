@@ -1,5 +1,19 @@
 /* your styles go here */
 
+.navbar, 
+.navbar.active {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+section {
+  padding: 60px 0 20px;
+}
+
+.bg-center {
+  margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
 
   .how-it-works__title {
