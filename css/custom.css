@@ -1,10 +1,6 @@
 /* your styles go here */
 
-.navbar, 
-.navbar.active {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
-}
+/* Common */
 
 section {
   padding: 60px 0 20px;
@@ -13,6 +9,36 @@ section {
 .bg-center {
   margin-bottom: 0;
 }
+
+.btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+/* Navbar */
+
+.navbar, 
+.navbar.active {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* About */
+
+.device-wrapper {
+  max-width: 240px;
+}
+
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.55%;
+  left: 4.3668122271%;
+  width: 91%;
+  height: 80%;
+}
+
+/* How it works */
 
 @media (min-width: 768px) {
 
