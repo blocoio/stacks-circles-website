@@ -1088,20 +1088,21 @@ section {
 
 .list-check li {
   position: relative;
-  padding-left: 1.5rem;
+  padding: 0.25rem 0 0.25rem 3rem;
 }
 
 .list-check li::before {
-  content: '\f00c';
-  font-family: 'Font Awesome\ 5 Free';
-  font-weight: 900;
+  content: '';
+  background-image: url('../img/check.svg');
+  background-size: contain;
   display: block;
   position: absolute;
   left: 0;
   top: 50%;
+  height: 40px;
+  width: 40px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #5546FF;
 }
 
 .social-link {
@@ -2043,7 +2044,16 @@ h1,
 
 h2,
 .h2 {
-  font-size: 2.4rem;
+  font-family: 'OpenSauceOneBold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+
+  letter-spacing: -0.02em;
+  font-feature-settings: 'ss01' on;
+
+  color: #25282B;
 }
 
 h3,

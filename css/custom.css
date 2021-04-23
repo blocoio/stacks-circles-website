@@ -40,6 +40,10 @@ section {
 
 /* How it works */
 
+.stacks-metaverse {
+  max-width: 500px;
+}
+
 @media (min-width: 768px) {
 
   .how-it-works__title {
