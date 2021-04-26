@@ -46,23 +46,22 @@ section {
 
 @media (min-width: 768px) {
 
-  .how-it-works__title {
-    margin: 0;
-    margin-bottom: 55px;
-    margin-left: -15px; 
-  }
 
   .how-it-works__text-container {
     position: relative;
+    background-image: url('../img/dashed_background.svg');
+    background-position: center 55%;
+    background-size: cover;
   }
 
+  /*
   .how-it-works__text-container::after {
     content: '';
     position: absolute;
     top: 0;
     left: 50%;
-    border: 0.9px dashed #5546FF;
-    border-spacing: 2px;
+    border: 1px dashed #5546FF;
+    border-spacing: 1px;
     height: 100%;
   }
 
@@ -71,8 +70,8 @@ section {
     position: absolute;
     top: 50%;
     left: 0;
-    border: 0.9px dashed #5546FF;
-    border-spacing: 2px;
+    border: 1px dashed #5546FF;
+    border-spacing: 1px;
     width: 100%;
   }
 
@@ -93,5 +92,5 @@ section {
     margin: 0;
     margin-bottom: 16px;
   }
-
+  */
 }
