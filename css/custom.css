@@ -2,8 +2,13 @@
 
 /* Common */
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 section {
-  padding: 60px 0 20px;
+  padding: 60px 0 60px;
 }
 
 .bg-center {
@@ -44,53 +49,20 @@ section {
   max-width: 500px;
 }
 
+/* FAQs */
+
 @media (min-width: 768px) {
-
-
   .how-it-works__text-container {
     position: relative;
     background-image: url('../img/dashed_background.svg');
     background-position: center 55%;
     background-size: cover;
   }
+}
 
-  /*
-  .how-it-works__text-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    border: 1px dashed #5546FF;
-    border-spacing: 1px;
-    height: 100%;
-  }
+/* Footer */
 
-  .how-it-works__text-container::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    border: 1px dashed #5546FF;
-    border-spacing: 1px;
-    width: 100%;
-  }
-
-  .how-it-works__info__left {
-    padding: 47px 79px 31px 0px;
-  }
-
-  .how-it-works__info__right {
-    padding: 47px 0px 31px 79px;
-  }
-
-  .how-it-works__subtitle-number {
-    margin: 0;
-    margin-bottom: 8px;
-  }
-
-  .how-it-works__subtitle {
-    margin: 0;
-    margin-bottom: 16px;
-  }
-  */
+footer {
+  font-size: 16px;
+  line-height: 23px;
 }

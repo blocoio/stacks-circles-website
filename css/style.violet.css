@@ -1088,7 +1088,7 @@ section {
 
 .list-check li {
   position: relative;
-  padding: 0.25rem 0 0.25rem 3rem;
+  padding: 0.25rem 0 0.25rem 2.25rem;
 }
 
 .list-check li::before {
@@ -1099,8 +1099,8 @@ section {
   position: absolute;
   left: 0;
   top: 50%;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
