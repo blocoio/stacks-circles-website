@@ -1,2 +1,1 @@
-# stacks-circles-landing-page
-Stacks Circles Landing Page
+# Stacks Circles Landing Page
