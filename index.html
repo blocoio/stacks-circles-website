@@ -8,6 +8,9 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
+
+  <meta property="og:image" content="https://circles.bloco.io/img/icon.png">
+
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <!-- Fonts-->
@@ -31,44 +34,68 @@
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="367"></a>
+      <div class="container"><a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="220"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link link-scroll active" href="#benefits">Benefits <span
+            <li class="nav-item"><a class="nav-link link-scroll active" href="#about">About<span
                   class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link link-scroll" href="#about">How it works</a></li>
-            <li class="nav-item"><a class="nav-link link-scroll" href="#rein">Rein Beneficts</a></li>
-            <li class="nav-item"><a class="nav-link link-scroll" href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#how-it-works">How it works</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#benefits">Beneficts</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#faqs">FAQs</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
   <!-- Hero Section-->
-  <section class="hero bg-top">
+  <section class="hero bg-top" id="about">
     <div class="container">
       <div class="row py-5">
         <div class="col-lg-5 align-self-center">
           <h1>Explore the Stacks world</h1>
           <p>Our Android app gives you a secure and safe journey through the Stacks ecosystem of decentralized apps.</p>
-          </br>
           <p>Discover some of the best Stacks apps right here.</p>
           <ul class="list-inline mb-3">
-            <li class="list-inline-item mb-2"><a class="btn btn-primary btn-lg px-4" href="https://play.google.com/store/apps/details?id=io.bloco.circles"> <i
-                  class="fab fa-google-play mr-3"></i>Google Play</a></li>
-            <li class="list-inline-item mb-2"><a class="btn btn-secondary btn-lg px-4" href="https://github.com/blocoio/stacks-circles-app/releases"> <i
-              class="fab fa-android mr-3"></i>Download APK</a></li>
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-primary btn-lg px-5" href="https://play.google.com/store/apps/details?id=io.bloco.circles"> <i class="fab fa-google-play mr-2"></i>Google Play</a>
+            </li>
+            <li class="list-inline-item mb-2">
+              <a class="btn btn-secondary btn-lg px-5" href="https://github.com/blocoio/stacks-circles-app/releases"> <i class="fab fa-android mr-2"></i>Download APK</a>
+            </li>
           </ul>
         </div>
         <div class="col-lg-6 ml-auto">
           <div class="device-wrapper mx-auto">
             <div class="device shadow" data-device="Pixel" data-orientation="portrait" data-color="white">
-              <div class="screen"><img class="img-fluid" src="img/circles-screenshot.png" alt=""></div>
+              <div class="screen">
+                <img class="img-fluid" src="img/circles-screenshot.png" alt="App Screenshot">
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-center" id="how-it-works">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h2>Your Stacks account on Android</h2>
+          <p><a class="bodyLink" href="https://www.stacks.co/">Stacks</a> Circles give you easy access to an ecosystem of decentralized apps, where you can control your own identity and data.</p> 
+          <p>Stacks offers an incredible variety of apps to choose from. There are Stacks applications for:</p>
+          <ul class="list-check px-2 py-2">
+            <li>Sharing Private Files</li>
+            <li>Cryptocurrency wallets</li>
+            <li>Comunicating suites</li>
+            <li>Accounting</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <img src="img/metaverse-stacks.png" alt="stacks ecosystem" class="stacks-metaverse">
+          <p class="body3">All Stacks applications protect your privacy, by ensuring only you have access to your data, and no-one else.</p>
         </div>
       </div>
     </div>
@@ -76,132 +103,104 @@
   <section class="bg-center" id="benefits">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <h1>Your Stacks account on Android</h1>
-          <p><a class="bodyLink" href="https://www.stacks.co/">Stacks</a> Circles give you easy access to an ecosystem of decentralized apps, where you can control your own identity and data.</p> 
-          </br>
-          <p>Stacks offers an incredible variety of apps to choose from. There are Stacks applications for:</p>
-          <ul class="list-check px-2 py-2">
-            <li><h3>Sharing Private Files</h3></li>
-            <li><h3>Cryptocurrency wallets</h3></li>
-            <li><h3>Comunicating suites</h3></li>
-            <li><h3>Accounting</h3></li>
-          </ul>
+        <div class="col-lg-6 mb-5 mb-lg-1">
+          <h2>Decentralized apps made simple</h2>
         </div>
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <img src="img/metaverse-stacks.svg" alt="stacks ecosystem">
-          <p class="body3">All Stacks applications protect your privacy, by ensuring only you have access to your data, and no-one else.</p>
+      </div>
+      <div class="row">
+        <div class="col mb-4 mb-lg-0">
+          <img src="img/add_account.png" alt="stacks ecosystem" height="65" class="mt-3">
+          <h4 class="w-75 mt-2 mb-4 h5">Create a new Stacks account or login with your existing one</h4>
+        </div>
+        <div class="col mb-4 mb-lg-0">
+          <img src="img/person_pin.png" alt="stacks ecosystem" height="65" class="mt-3">
+          <h4 class="w-75 mt-2 mb-4 h5">Create a new identity for every app to ensure your privacy</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-4 mb-lg-0">
+          <img src="img/store.png" alt="stacks ecosystem" height="65" class="mt-3">
+          <h4 class="w-75 mt-2 mb-4 h5">Store and review your secret key in a secure way</h4>
+        </div>
+        <div class="col mb-4 mb-lg-0">
+          <img src="img/explore.png" alt="stacks ecosystem" height="65" class="mt-3">
+          <h4 class="w-75 mt-2 mb-4 h5">Explore the Stacks ecosystem</h4>
         </div>
       </div>
     </div>
   </section>
-  <section class="bg-center" id="about">
+  <section class="bg-center" id="faqs">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <h1>Decentralized apps made simple</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col mb-5 mb-lg-0">
-          <img src="img/add_acount2x.png" alt="stacks ecosystem" width="75" height="75" class="my-4">
-          <h4 class="w-75 my-4">Create a new Stacks account or login with your existing one</h4>
-        </div>
-        <div class="col mb-5 mb-lg-0">
-          <img src="img/person_pin2x.png" alt="stacks ecosystem" width="75" height="75" class="my-4">
-          <h4 class="w-75 my-4">Create a new identity for every app to ensure your privacy</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col mb-5 mb-lg-0">
-          <img src="img/store2x.png" alt="stacks ecosystem" width="75" height="75" class="my-4">
-          <h4 class="w-75 my-4">Store and review your secret key in a secure way</h4>
-        </div>
-        <div class="col mb-5 mb-lg-0">
-          <img src="img/explore2x.png" alt="stacks ecosystem" width="75" height="75" class="my-4">
-          <h4 class="w-75 my-4">Explore the Stacks ecosystem</h4>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-center" >
-    <div class="container" id="rein">
       <div class="row">
         <div class="col col-12">
-          <h1 class="how-it-works__title">Frequently asked question</h1>
+          <h2 class="how-it-works__title mb-4">Frequently asked questions</h2>
         </div>
-        <div class="how-it-works__text-container mx-3 mx-md-0">
+        <div class="how-it-works__text-container col-12">
           <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="how-it-works__info__left">
-                <h5 class="how-it-works__subtitle-number">1</h5>
-                <h4 class="how-it-works__subtitle">What is Stacks?</h4>
-                <p class="how-it-works__text">Stacks is a network of decentralized apps. Stacks doesn't store your data on centralized servers, which means you own your data and no one else.</p>
-              </div>
+            <div class="col-12 col-md-6  px-4 my-4">
+              <h5 class="h4">1</h5>
+              <h4>What is Stacks?</h4>
+              <p>Stacks is a network of decentralized apps. Stacks doesn't store your data on centralized servers, which means you own your data and no one else.</p>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="how-it-works__info__right">
-                <h5 class="how-it-works__subtitle-number">2</h5>
-                <h4 class="how-it-works__subtitle">Why do I need this app?</h4>
-                <p class="how-it-works__text">Stacks offers you an Android solution for managing your Stacks accounts and identities. You don't need a different account and password for each app you use, or to keep entering your credentials.</p>
-              </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+              <h5 class="h4">2</h5>
+              <h4>Why do I need this app?</h4>
+              <p>Stacks offers you an Android solution for managing your Stacks accounts and identities. You don't need a different account and password for each app you use, or to keep entering your credentials.</p>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="how-it-works__info__left">
-                <h5 class="how-it-works__subtitle-number">3</h5>
-                <h4 class="how-it-works__subtitle">Should I trust my secret key with Stacks Circles?</h4>
-                <p class="how-it-works__text">Your secret key is safely stored inside the Stacks Circles app, on your device. It is not sent anywhere else, not even when you are using your account on other Stacks apps.</p>
-              </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+              <h5 class="h4">3</h5>
+              <h4>Should I trust my secret key with Stacks Circles?</h4>
+              <p>Your secret key is safely stored inside the Stacks Circles app, on your device. It is not sent anywhere else, not even when you are using your account on other Stacks apps.</p>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="how-it-works__info__right">
-                <h5 class="how-it-works__subtitle-number">4</h5>
-                <h4 class="how-it-works__subtitle">I've lost my secret key, how do I get it back?</h4>
-                <p class="how-it-works__text"> You are responsible for recalling and protecting your keys. Unlike passwords, secret keys are not recovered if lost. So, be sure to always back up a copy in a secure place that you remember. </p>
-              </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+              <h5 class="h4">4</h5>
+              <h4>I've lost my secret key, how do I get it back?</h4>
+              <p> You are responsible for recalling and protecting your keys. Unlike passwords, secret keys are not recovered if lost. So, be sure to always back up a copy in a secure place that you remember.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <a class="scropll-top-btn" id="scrollTop" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
-  <footer class="position-relative" id="contacts">
+
+  <footer class="position-relative mt-5" id="contacts">
     <div class="container section-padding-y">
       <div class="row">
+        <div class="col-12 col-md-3 mb-4 mb-lg-0">
+          <p class="text-muted">Stacks Circles is an app made by <a href="https://www.bloco.io">Bloco</a>, an Android product studio focused on building quality mobile apps.</p>
+        </div>
+        <div class="col-12 col-md offset-md-1 mb-4 mb-lg-0">
+          <h3 class="h5 mb-2">About</h3>
+          <div class="d-flex">
+            <ul class="list-unstyled d-inline-block mr-4 mb-0">
+              <li class="mb-1"><a class="footer-link" href="https://www.bloco.io">About us</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.bloco.io/blog">Blog</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://commerce.coinbase.com/checkout/43192612-1a84-4f79-8b2c-e8e9d4655c40">Donate</a></li>
+              <li class="mb-1"><a class="footer-link" href="mailto:hello@bloco.io">Drop us a line</a></li>
+            </ul>
+          </div>
+        </div>
         <div class="col-12 col-md mb-4 mb-lg-0">
-          <p class="text-muted">Stacks Circles is an app made by Bloco, an Android product studio focused on building quality mobile apps.</p>
-        </div>
-        <div class="col mb-4 mb-lg-0">
-          <h2 class="h5 mb-4">About</h2>
+          <h3 class="h5 mb-2">Our Products</h3>
           <div class="d-flex">
             <ul class="list-unstyled d-inline-block mr-4 mb-0">
-              <li class="mb-2"><a class="footer-link" href="https://www.bloco.io/about">About us</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://www.bloco.io/blog">Blog</a></li>
-              <li class="mb-2"><a class="footer-link" href="#">Donate</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://www.bloco.io/">Drop us a line</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://envelop.app/">Envelop</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.largetext">Large Text</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=com.cadernoapp">Caderno</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.cardcase">Card case</a></li>
             </ul>
           </div>
         </div>
-        <div class="col mb-4 mb-lg-0">
-          <h2 class="h5 mb-4">Our Products</h2>
-          <div class="d-flex">
-            <ul class="list-unstyled d-inline-block mr-4 mb-0">
-              <li class="mb-2"><a class="footer-link" href="https://envelop.app/">Envelop</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.largetext">Large Text</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://play.google.com/store/apps/details?id=com.cadernoapp">Caderno</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.cardcase">Card case</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col mb-4 mb-lg-0">
-          <h2 class="h5 mb-4">Follow us</h2>
+        <div class="col-12 col-md mb-4 mb-lg-0">
+          <h3 class="h5 mb-2">Follow us</h3>
           <div class="d-flex">
             <ul class="list-unstyled mr-4 mb-0">
-              <li class="mb-2"><a class="footer-link" href="https://twitter.com/blocoio"><i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://www.facebook.com/bloco.io"><i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://www.linkedin.com/company/bloco/"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Linkedin</a></li>
-              <li class="mb-2"><a class="footer-link" href="https://www.instagram.com/bloco.io/"><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;Instagram</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://twitter.com/blocoio"><i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.facebook.com/bloco.io"><i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.linkedin.com/company/bloco/"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Linkedin</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.instagram.com/bloco.io/"><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;Instagram</a></li>
             </ul>
           </div>
         </div>
@@ -209,8 +208,10 @@
     </div>
     <div class="copyrights">
       <div class="container text-center py-4">
-        <p class="mb-0 text-muted text-sm">2021 &copy;Bloco — Terms & Privacy Policy - Template inspired by <a
-            href="https://bootstraptemple.com" class="text-reset">Bootstrap Temple</a>.</p>
+        <p class="mb-0 text-muted text-sm">
+          Bloco – <a href="privacy">Privacy Policy</a> – Template inspired by <a
+            href="https://bootstraptemple.com" class="text-reset">Bootstrap Temple</a>.
+          </p>
       </div>
     </div>
   </footer>
