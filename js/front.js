@@ -10,7 +10,7 @@ $(function () {
             $('.navbar').removeClass('active');
         }
 
-        if ($(window).scrollTop() > 1000) {
+        if ($(window).scrollTop() > 300) {
             $('#scrollTop').addClass('active');
         } else {
             $('#scrollTop').removeClass('active');
